@@ -1,2 +1,4 @@
 1) Commit 1: Create a repository
 2) Commit 2: Create and edit file
+
+3)Hello world (edit from dmytro.barvenko.gitpractice branch)
