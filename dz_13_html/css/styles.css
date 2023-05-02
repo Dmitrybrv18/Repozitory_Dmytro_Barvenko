@@ -1,0 +1,60 @@
+/*--Left block --*/
+.left_side{
+    width: 50%; float: left;
+}
+
+/*--Right block --*/
+.right_side{
+    margin-top: 20px; margin-left: 20px; width: 45%; float: right;
+}
+
+/*Delete out from below*/
+.del_below{
+    margin-bottom: 0;
+}
+
+/*Remove the indentation from above*/
+.del_above{
+    margin-top: 0;
+}
+
+/*CV Photo location on the page*/
+.cv_photo{
+    margin-top: 3%; margin-left: 4%; width: 45%; float: left;
+}
+
+/* "LESSONS" button */
+.lessons_button{
+    font-size: 20px; font-weight: bold; background-color: rgb(35, 35, 168); color: white; border: 2px solid yellow;
+}
+
+/* "My contacts" button */
+.my_contacts_button{
+    font-size: 20px; font-weight: bold; background-color: green; color: white;
+}
+
+/* Clear elements */
+.clear_elements{
+    clear: both;
+}
+
+/*width of the line*/
+.width_of_line{
+    width: 100%;
+}
+
+/*stylefooter line*/
+.stylefooter_line{
+    border-top: 3px solid;
+}
+
+
+/*footer line*/
+.footer_line{
+    float: center; margin-bottom: 10px; margin-right: 30px;
+}
+
+/*color footer letters*/
+.color_footer_letters{
+    color: blue;
+}
