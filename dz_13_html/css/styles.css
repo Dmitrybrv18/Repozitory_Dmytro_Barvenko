@@ -1,60 +1,165 @@
-/*--Left block --*/
-.left_side{
-    width: 50%; float: left;
+/* Background */
+.background {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 130vh;
 }
 
-/*--Right block --*/
-.right_side{
-    margin-top: 20px; margin-left: 20px; width: 45%; float: right;
+/* Left block main page */
+.left_side {
+    width: 50%;
+    float: left;
+    margin-top: 10px; /* Верхний отступ для блока */
 }
 
-/*Delete out from below*/
-.del_below{
-    margin-bottom: 0;
-}
-
-/*Remove the indentation from above*/
-.del_above{
-    margin-top: 0;
-}
-
-/*CV Photo location on the page*/
-.cv_photo{
-    margin-top: 3%; margin-left: 4%; width: 45%; float: left;
-}
-
-/* "LESSONS" button */
-.lessons_button{
-    font-size: 20px; font-weight: bold; background-color: rgb(35, 35, 168); color: white; border: 2px solid yellow;
-}
-
-/* "My contacts" button */
-.my_contacts_button{
-    font-size: 20px; font-weight: bold; background-color: green; color: white;
-}
-
-/* Clear elements */
-.clear_elements{
-    clear: both;
-}
-
-/*width of the line*/
-.width_of_line{
+/* Left side general information */
+.left_general {
+    background-color: #8BC34A;
+    border-radius: 10px;
+    padding: 10px;
     width: 100%;
 }
 
-/*stylefooter line*/
-.stylefooter_line{
+.left_general h2,
+.left_general p {
+    margin-bottom: 20px; /* Нижний отступ для заголовков и абзацев внутри .left_general */
+  }
+
+
+/* Right block main page */
+.right_side {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 45%;
+    float: right;
+}
+
+/* Delete out from below */
+.del_below {
+    margin-bottom: 0;
+}
+
+/* Remove the indentation from above */
+.del_above {
+    margin-top: 0;
+}
+
+/* CV Photo location on the page */
+.cv_photo {
+    margin-top: 3%;
+    margin-left: 4%;
+    width: 45%;
+    float: left;
+}
+
+/* "LESSONS" button */
+.lessons_button {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(35, 35, 168);
+    color: white;
+    border: 2px solid yellow;
+}
+
+/* "My contacts" button */
+.my_contacts_button {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(226, 28, 111);
+    color: white;
+}
+
+/* Clear elements */
+.clear_elements {
+    clear: both;
+}
+
+/* Width of the line */
+.width_of_line {
+    width: 100%;
+}
+
+/* Style footer line */
+.stylefooter_line {
     border-top: 3px solid;
 }
 
-
-/*footer line*/
-.footer_line{
-    float: center; margin-bottom: 10px; margin-right: 30px;
+/* Footer line */
+.footer_line {
+    float: center;
+    margin-bottom: 50px;
+    margin-right: 30px;
 }
 
-/*color footer letters*/
-.color_footer_letters{
+/* Color footer letters */
+.color_footer_letters {
     color: blue;
+    margin-top: 0;
+    margin-bottom: 200px;      
 }
+
+/* Elastic2 */
+#elastic2 {
+    margin-bottom: 20px;
+}
+
+/* Photo left side on the gallery html */
+.photo_left {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 45%;
+    float: left;
+}
+
+/* Photo right side on the gallery html */
+.photo_right {
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 45%;
+    float: right;
+}
+
+/* Location photo center on the gallery html */
+.photo_center {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+}
+
+/* Style photo center on the gallery html */
+.style_photo_center {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+/* Icon photo left side on the main page */
+.icon_photo_left {
+    margin-top: 5px;
+    margin-left: 20px;
+    width: 10%;
+    float: left;
+    margin-bottom: 0;
+}
+
+/* Chapter right side on the main html */
+.chapter_right {
+    background-color: #8BC34A;
+    border-radius: 10px;
+    padding: 10px;
+    width: 50%;
+    margin-left: 80px;
+}
+
+/* Chapter style on main page */
+.chapter_style {
+    color: rgb(68, 6, 240);
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+}
+  
